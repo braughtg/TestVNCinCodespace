@@ -2,6 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "desktop-lite": {
+      "noVNCVersion": "1.5.0",
       "password": "test",
       "webPort": "6080",
       "vncPort": "5901"
