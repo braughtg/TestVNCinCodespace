@@ -3,6 +3,6 @@ Spike to try out a VNC server in a codespace.
 
 ## Create a New Codespace
 
-[Create a Codespace](https://codespaces.new/OWNER/REPO-NAME)
+[Create a Codespace](https://codespaces.new/braughtg/TestVNCinCodespace)
 
 ## Resume a Codespace
