@@ -24,7 +24,6 @@ Note: Copy and paste between host and noVNC is via their clunky clipboard.
 - Requires
   - `gh`
   - TigerVNC client
- 
 - Setup
   - Create GitHub token with `repo`, `read:org`, `workflow`, `codespaces`
   - `gh auth login` and paste the token
