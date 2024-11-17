@@ -1,13 +1,10 @@
 # TestVNCinCodespace
 Spike to try out a VNC server in a codespace.
 
-## Create a New Codespace
+## Open a Codespace
 
-[![Create a GitHub Codespace](https://github.com/codespaces/badge.svg)](https://codespaces.new/braughtg/TestVNCinCodespace)
-
-## Resume a Codespace
-
-[![Resume your GitHub Codespace](https://github.com/codespaces/badge.svg)](https://codespaces.new/braughtg/TestVNCinCodespace?quickstart=1)
+[![Open in a GitHub Codespace](https://github.com/codespaces/badge.svg)](https://codespaces.new/braughtg/TestVNCinCodespace?quickstart=1)
+- Note: Gives option to resume most recent codespace if one exists.
 
 ## Connect via VNC
 
