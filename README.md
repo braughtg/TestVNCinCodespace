@@ -24,26 +24,22 @@ Note: Copy and paste between host and noVNC is via their clunky clipboard.
 - Requires
   - `gh`
   - TigerVNC client
-- Setup
+- Onetime Setup
   - Create GitHub token with `repo`, `read:org`, `workflow`, `codespaces`
   - `gh auth login` and paste the token
-- Open the Codespace using the button above
-  - Or alternatively using `gh`
-    - `gh codespace create --repo braughtg/TestVNCinCodespace --display-name "vnctest" --web` (to create it the first time)
+  - Open the Codespace using the button above.
+    - Or use `gh codespace create --repo braughtg/TestVNCinCodespace --web`
       - note: can also set idle timeout using `--idle-timeout "10m"`
-    - `gh codespace code --repo braughtg/TestVNCinCodespace --web` (to restart an existing codespace)
-      - Choose the codespace from the options presented.
-- Click "Ports" in the browsesr window where the Codespace is opening and wait for port 5901 to open.
-- In a terminal on the local machine, forward the VNC port from the Codespace:
-  - `gh codespace ports forward 5901:5901 --repo braughtg/TestVNCinCodespace`
-    - remotePort:localPort
-  - Choose the Codespace from the options presented.
-- Use VNC on the local machine to connect to the localPort
-- Stop the Codespace from a terminal on the local machine (or via GitHub).
-  - `gh codespace stop --repo braughtg/TestVNCinCodespace`
-    - Choose the codespace from the options presented.
+- Use
+  - In a terminal on the local machine, forward the VNC port from the Codespace:
+    - `gh codespace ports forward 5901:5901 --repo braughtg/TestVNCinCodespace`
+      - remotePort:localPort
+      - Note: Once the Codespace exists, this both starts it and forwards the ports.
+  - Use VNC on the local machine to connect to the localPort
+  - Stop the Codespace from a terminal on the local machine (or via GitHub).
+    - `gh codespace stop --repo braughtg/TestVNCinCodespace`
 
-Note: If we know the name (not the display name) of the Codespace we can use `--codespace "name"` instead of `--repo braughtg/TestVNCinCodespace` and skip the step of choosing the codespace. But note that the Codespace names contain a hash so are not convenient to type. 
+Note: If there is more than one Codespace on `braughtg/TestVNCinCodespace` you will be prompted to choose one when using the `gh` commands.
 
 ## ToDo
 
