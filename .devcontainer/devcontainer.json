@@ -2,7 +2,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "remoteUser": "gitkit",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "noVncVersion": "1.2.0",
