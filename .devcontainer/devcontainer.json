@@ -3,7 +3,7 @@
     "dockerfile": "Dockerfile"
   },
   "features": {
-    "desktop-lite": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
       "noVncVersion": "1.5.0",
       "password": "noPassword",
       "webPort": "6080",
