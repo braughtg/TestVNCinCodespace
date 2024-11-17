@@ -10,7 +10,9 @@ Spike to try out a VNC server in a codespace.
 
 - Click *Ports* in the Codespace window.
 - Wait for port 6080 (NoVNC) to open
-- Point at the URL and click an icon to open the port in preview (inside VSCode) or in the browser (in its own tab).
+- Right click the URL for port 6080 and choose:
+  - open in preview to open in a tab in the VSCode interface.
+  - open in browser to open in its own browser tab.
 
 ## Connect via VNC
 
